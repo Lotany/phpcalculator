@@ -2,3 +2,33 @@
     padding: 0;
     margin: 0;
 }
+
+.section1 {
+    float:left ;
+
+}
+
+.selector2 {
+    margin-left: 200px;
+    margin-top: 1px;
+    padding-top: 0px;
+}
+
+.right {
+    float: right;
+    margin-top: 20px;
+}
+
+.two {
+    margin-top: 20px;
+}
+
+.head {
+    font-size: 20px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.footer {
+    
+}
