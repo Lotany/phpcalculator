@@ -9,7 +9,6 @@
     <body>
         <nav>
         <div class="navbar">
-            <h2 class="logo"><a href="#">My Program</a></h2>
            <ul class="navbarul">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -19,14 +18,20 @@
 
         <div class="section1">
             <form action="">
-                <option value="non">None</option>
-                <option value="non">None</option>
-                <option value="non">None</option>
-                <option value="non">None</option>
-                <option value="non">None</option>
-                <option value="non">None</option>
+                <input type="text" placeholder="Number">
+                <br>
+                <input class="two" type="text" placeholder="Number">
             </form>
-
+           <select name="select" id="select">
+           <option value="non">None</option>
+                <option value="add">Add</option>
+                <option value="mult">Multiply</option>
+                <option value="sub">Subtract</option>
+                <option value="minu">Minus</option>
+                <option value="div">divide</option>
+                <option value="rem">Remainder</option>
+           </select>
+           <button class="button" name="submit" type="submit">Calculate</button>
         </div>
 
         
