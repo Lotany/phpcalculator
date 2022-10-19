@@ -4,14 +4,16 @@
 }
 
 .section1 {
+    width: 100%;
     float:left ;
+    background-color: red;
 
 }
 
 .selector2 {
     margin-left: 200px;
     margin-top: 1px;
-    padding-top: 0px;
+
 }
 
 .right {
@@ -30,5 +32,10 @@
 }
 
 .footer {
-    
+    width: 100%;
+    background-color: rgb(243, 152, 152);   
+}
+
+.header {
+    width: 100%;
 }
